@@ -5,7 +5,7 @@ body {
 	line-height:1.6em;
 	color:#656565;
 	font-size: 1.4em;
-	background: #f5f5f5;
+
 }
 a {
     color: #43ca83;
@@ -142,18 +142,23 @@ display:none;
   float: left;
   font-size: 15px;
   width: 588px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
   }
 
 
 
 .page
 {
-  padding-top: 50px;  
-  padding-left: 165px;
-  margin: 0 0 10px;
+  width: 1200px;
+  margin: 0px auto;
+  display: flex;
+ 
 }
 .page-wrapper{
   padding: 80px 0;
+  background: #EEEEEE;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -164,12 +169,7 @@ display:none;
 .sidebar
 {
   
-    float: right;
-    display: block;
-    margin-right: auto;
-    width: 30%;
-    padding-top: 10%;
-
+    margin-top: 64px;
 }
 ul.b {
   list-style: none;
@@ -223,7 +223,8 @@ ul.b li::before{
   max-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  display: block;
+  display: flex;
+  column-gap: 20px;
   width: 100%;
    
 }
@@ -264,6 +265,7 @@ header h6 + p {
 header.major {
   text-align: center;
   margin: 0 0 4em 0;
+  
 }
 
   header.major h2 {
@@ -309,7 +311,7 @@ header.major {
 
 .wrapper {
   padding: 6em 0 4em 0;
-}
+  }
 
   .wrapper.style1 {
     background: #fff;
@@ -321,9 +323,10 @@ header.major {
   }
   .wrapper.style2 {
     background: #0e3655;
-    color: #c5c7c8;
+    color: #656565;
+    height: 800px;
   }
-  
+    
     .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
       color: #ffffff;
     }
@@ -360,6 +363,7 @@ header.major {
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
+    
 }
   .card-image {
     position: relative;
@@ -394,9 +398,29 @@ header.major {
 }
 .card-content{
   max-height: 40%;
-  overflow: hidden;
   padding: 20px;
   border-radius: 0 0 2px 2px;
-  font-size: 85%
+  font-size: 85%;
+  color: #000;
  }
 
+.major{
+  padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0 0 4em 0;
+}
+.content-2{
+  float: right;
+    font-size: 15px;
+     padding-left: 15px;
+ 
+}
+.rightbar{
+  margin-top: 64px;
+  width: 100%;
+}
+}
