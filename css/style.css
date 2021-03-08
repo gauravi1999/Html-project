@@ -5,6 +5,7 @@ body {
 	line-height:1.6em;
 	color:#656565;
 	font-size: 1.4em;
+  margin:0;
 
 }
 a {
@@ -40,6 +41,8 @@ h3, h4, h5, h6 {
 .topbar .topbar-wrapper{
   display: flex;
   justify-content: space-between;
+  width:100%;
+
 }
 .icon-wrapper a i{
   color: #43ca83;
@@ -59,10 +62,7 @@ h3, h4, h5, h6 {
     background-color: #ddd;
     color: #1bbde8;
   }
-  .topbar-right {
-   
-    float: right;
-  }
+  
   .navbar {
     overflow: hidden;
     padding-left:110px;
@@ -423,4 +423,129 @@ header.major {
   margin-top: 64px;
   width: 100%;
 }
+.widget{
+  font-size: 0.7em;
+  color: #5584a9;
+}
+.widgetheading{
+  width: 100%;
+  padding: 0;
+  font-weight: bold;
+  color: #43ca83;
+}
+footer {
+  
+  background-color: #0e3655;
+}
+footer a {
+	color: #43ca83;
+}
+
+footer a:hover {
+	color: #43ca83;
+}
+.footer-info {
+  width: 25%;
+ 
+  margin-top: 10px;
+}
+.footer-link{
+  max-width: 100%;
+
+  font-size: 0.7em;
+}
+
+ul.footer-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.footer-link li {
+  margin: 0;
+  padding: 2px 0 2px 0;
+  list-style: none;
+  
+}
+footer ul.footer-link li a {
+  color: #5584a9;
+}
+#sub-footer{
+	text-shadow:none;
+	color: #dedede;
+	padding:0;
+	padding-top:30px;
+	margin:20px 0 0 0;
+	background: #0c314e;
+	border-top: 1px solid #133a58;
+}
+
+
+#sub-footer p{
+	margin:0;
+	padding:0;
+}
+
+#sub-footer span{
+	color: #5584a9;
+}
+
+.copyright {
+	text-align:left;
+	font-size:12px;
+}
+
+#sub-footer ul.social-network {
+	float:right;
+}
+ul.social-network li {
+  display: inline;
+  padding: 5px 0 0;
+  width: 26px;
+  display: inline-block;
+  font-size: 0.7em;
+  vertical-align: baseline;
+}
+.sub-content{
+width:50%;
+float:left;
+}
+.dropdown-menu li a:hover {
+  color: #fff !important;
+  background: #0e3655 !important;
+}
+
+header .nav .caret {
+  border-bottom-color: #0e3655;
+  border-top-color: #0e3655;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+background-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+background-color:  #fff;
+}	
+
+
+.dropdown-menu  {
+  box-shadow: none;
+  border-radius: 0;
+border: none;
+}
+
+.dropdown-menu li:last-child  {
+padding-bottom: 0 !important;
+margin-bottom: 0;
+}
+
+header .nav li .dropdown-menu  {
+ padding: 0;
+}
+
+header .nav li .dropdown-menu li a {
+ line-height: 28px;
+ padding: 3px 12px;
 }
