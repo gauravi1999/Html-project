@@ -1,0 +1,11 @@
+.banner-wrapper{
+    padding: 15px 0px;
+  }
+.pageTitle {
+	color: #0e3655;
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
