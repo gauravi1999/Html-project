@@ -3,9 +3,36 @@
   }
 .pageTitle {
 	color: #0e3655;
-    padding: 5px 0;
+    padding: 15px 0;
     display: block;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.s-content{
+margin: 0 0 4em 0;
+}
+.s-content h2{
+  text-transform: none;
+  font-size: 1.1em;
+  color: #0e5992;
+  font-weight: 500;
+}
+.m4u{
+  display: flex;
+  column-gap: 300px;
+}
+.fa-fa-bell {
+  margin-bottom: 15px;
+  color: #ffffff;
+  width: 50px;
+  text-align: center;
+  background: #46b97c;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #46b97c;
+  line-height: 90px;
+  border-radius: 50%;
+  font-size: 3em;
 }

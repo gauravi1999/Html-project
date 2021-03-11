@@ -2,7 +2,7 @@
 body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:300;
-	line-height:1.6em;
+	line-height:1em;
 	color:#656565;
 	font-size: 1.4em;
   margin:0;
@@ -10,7 +10,7 @@ body {
 }
 p{
   font-size: 14px;
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 strong{
@@ -58,7 +58,7 @@ h3, h4, h5, h6 {
 
 }
 .icon-wrapper{
-  padding: 0px;
+  padding: 10px;
 }
 .icon-wrapper a i{
   color: #43ca83;
@@ -68,7 +68,7 @@ h3, h4, h5, h6 {
   .topbar a {
 
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 6px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -134,8 +134,11 @@ color: #17677e;
   background: rgba(46, 218, 123, 0.8);
 }
 .carousel-caption{
-  margin: 0px 0px 150px 0px;
-  Z-INDEX: 9;
+  Z-INDEX: 7;
+    padding: 50px 0px;
+    right: 45%;
+    left: 5%;
+ 
 }
 .carousel-caption h3{
   font-size: 80px;
@@ -297,7 +300,10 @@ header.major {
   
 /* Icon */
 
-.material-icons {
+.m-icons {
+  
+}
+.m-icons i{
   margin-bottom: 15px;
   color: #ffffff;
   width: 50px;
@@ -305,12 +311,10 @@ header.major {
   background: #46b97c;
   width: 90px;
   height: 90px;
-  border: 1px solid #46b97c;
   line-height: 90px;
   border-radius: 50%;
-  font-size: 3em;
+  font-size: 2em;
 }
-
 
 /* Wrapper */
 
@@ -344,7 +348,7 @@ header.major {
 
       .\34 u {
         display: flex;
-        column-gap: 10px;
+        column-gap: 30px;
              
     }
    
@@ -362,7 +366,7 @@ header.major {
   .card {
     width: 31%;
     position: relative;
-    margin: 10px 8px;
+    margin: 10px 13px;
     background-color: #fff;
     box-shadow: 0px 1px 5px 0px;
        
@@ -370,6 +374,7 @@ header.major {
 .card-wrapper{
   display: flex;
   flex-wrap: wrap;
+ 
 }
   .card-image {
     position: relative;
