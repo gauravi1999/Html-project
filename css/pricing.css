@@ -1,0 +1,63 @@
+.p-content{
+    margin: 0 0 2em 0;
+}
+.p-content h2{
+    text-transform: none;
+    font-size: 1.1em;
+    color: #0e5992;
+    font-weight: 500;
+  }
+.boxing{
+display: flex;
+column-gap: 30px;
+}
+.box-wrapping{
+
+    margin-bottom: 2em;
+    
+}
+
+.panel{
+    background-color: #35c076;
+    color: white;
+    font-size: 3em;
+    padding: 30px 166px;
+
+}
+.panel h3{
+    color: #0e3655;
+    margin-top: 13px;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+.pricing-details{
+    background-color: #e2e0e0;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 30px;
+}
+.pricing-details p{
+    font-size: 18px;
+}
+.price{
+    color: #0e3655;
+    font-weight: 600;
+}
+.panel-2{
+    background-color: #0e3655;
+}
+.s-btn{
+    margin: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #43ca83;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: 400;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+  }
+  .s-btn:hover{
+      background-color: #35c076;
+      color: white;
+  }
