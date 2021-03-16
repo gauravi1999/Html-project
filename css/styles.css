@@ -83,6 +83,15 @@ color: #17677e;
     margin: auto;
     background-color: white;
     padding:0px;
+    align-items: inherit;
+  }
+  .navbar strong{
+    font-size: 26px;
+    color: #0c314e;
+  }
+  .navbar .material-icons{
+    color: #43ca83;
+    
   }
   .navbar-right {
     
